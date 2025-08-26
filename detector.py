@@ -6,7 +6,7 @@ from PIL import Image
 st.title("🐄 Cow Detection App")
 
 # Load model
-model = YOLO("best.pt")  # replace with your trained cow model
+model = YOLO("best.pt")  #trained model
 
 # --- Session state to remember selection ---
 if "input_type" not in st.session_state:
